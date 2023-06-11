@@ -1,0 +1,33 @@
+<div className="flex flex-col justify-center items-center">
+        <div>
+          <img src="assets/logo.png" alt="Logo" className="h-20" />
+        </div>
+        <div>
+        <div className="flex flex-row items-center">
+          <MdSpaceDashboard size={30}/>
+          Dashboard
+        </div>
+        <div className="flex flex-row items-center">
+          <CgProfile size={30}/>
+          <a href="/home/profile">Profile</a>
+        </div>
+        <div className="flex flex-row items-center">
+          <MdSpaceDashboard size={30}/>
+          Open Issue Tracker
+        </div>
+        <div className="flex flex-row items-center">
+          <MdSpaceDashboard size={30}/>
+          Laws and Amendments
+        </div>
+        <div className="flex flex-row items-center">
+          <MdSpaceDashboard size={30}/>
+          Calender
+        </div>
+      </div>
+        <div>
+          <img src="assets/dashHero.png" alt="hero" className="h-44"/>
+        <div onClick={handleLogout}>
+          <span>Logout</span>
+        </div>
+        </div>
+      </div>

@@ -10,7 +10,6 @@ import HomeAdmin from "./pages/HomeAdmin";
 import Clients from "./pages/Clients";
 import Announcements from "./pages/Announcements";
 import Employees from "./pages/Employees";
-import CalenderUser from "./pages/CalenderUser";
 import DirectorDetail from "./pages/DirectorDetail";
 import Issue from "./pages/Issue";
 import ClientProfile from "./pages/ClientProfile";
@@ -27,7 +26,7 @@ export default function App() {
         <Route path='/home-user' element={<HomeUser />} />
         <Route path='/home-user/directordetails' element={<DirectorDetail />} />
         <Route path='/home-user/profile' element={<ProfileUser />} />
-        {/* <Route path='/home-user/calender' element={<CalenderUser />} /> */}
+        
         <Route path='/home-user/issuetracker' element={<Issue />} />
         <Route path='/home-admin' element={<HomeAdmin />} />
         <Route path='/home-admin/clients' element={<Clients />} />
